@@ -6,11 +6,13 @@ function myFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   if (scrolled > 3) {
-    document.getElementById("navbar").style = "background:#fff;border-bottom:1px solid #e7e7e7";
+    //document.getElementById("navbar").style = "background:#fff;border-bottom:1px solid #e7e7e7";
+	$('nav.navbar').css({backgroundColor:'#fff',borderBottom:'1px solid #e7e7e7'});
     $('a.page-scroll').addClass("scrolled");
     $('a.navbar-brand').addClass("scrolled");
   }else {
-    document.getElementById("navbar").style = "background:transparent;border-bottom:none";
+    //document.getElementById("navbar").style = "background:transparent;border-bottom:none";
+	$('nav.navbar').css({backgroundColor:'transparent',borderBottom:'none'});
     $('a.page-scroll').removeClass("scrolled");
     $('a.navbar-brand').removeClass("scrolled");
   }
@@ -70,7 +72,7 @@ $('.owl-autoplay').owlCarousel({
           items:1,
           nav:true
       },
-      600:{
+      700:{
           items:2,
           nav:false
       },
