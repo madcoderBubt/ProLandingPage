@@ -223,7 +223,7 @@ ul#filterOptions li.active a { background: #999; }
   text-align: center;
   font-size: 40px;
 }
-.video i.glyphicon{margin: 10px 13px;}
+.video i.fa{margin: 10px 13px;}
 
 /*priceArea*/
 .priceArea{
