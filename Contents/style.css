@@ -1,4 +1,5 @@
 html, body{
+  width: 100%;
   height: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 25px;
@@ -30,6 +31,7 @@ a:hover,
 a.btn-social:hover{
   color: #F27849;
 }
+/*Text color*/
 .text-light h1, .text-light h2, .text-light h3,
 .text-light h4, .text-light h5, .text-light h6,
 .text-light p, .text-light span, .text-light
@@ -74,7 +76,7 @@ input[type="text"],textarea{
   color: #444;
 }
 .btn-red:hover,
-.btn-black-submit:hover,
+.btn-dark-submit:hover,
 .btn.btn-red-fill{
   color: white;
   border-color: #b43434;
@@ -93,8 +95,8 @@ input[type="text"],textarea{
   background-color: transparent;
   color: #b43434;
 }
-.btn-black,
-.btn.btn-black-fill:hover{
+.btn-dark,
+.btn.btn-dark-fill:hover{
   background-color: transparent;
   color: #222;
 }
@@ -121,7 +123,7 @@ input[type="text"],textarea{
 
 
 
-/*Section heading*/
+/*Section-area heading*/
 .area-heading{
   display: block;
   overflow: hidden;
@@ -135,7 +137,7 @@ input[type="text"],textarea{
 
 }
 
-/*navbar Ara*/
+/*navbar Area*/
 .navbar{
   margin-bottom: 0;
   background-color: transparent;
@@ -181,14 +183,6 @@ a:hover,a:focus,
 .navbar-brand{
   font-family: 'Playball',cursive;
   font-size: 50px;
-}
-@media only screen and (max-width:768px) {
-  #topMenu{
-    background-color: #fff;
-  }
-  a.page-scroll{
-    color: #222;
-  }
 }
 
 /*coverArea*/
@@ -293,4 +287,43 @@ a:hover,a:focus,
 .google-map iframe{
   width: 100%;
   height: 450px;
+}
+
+/*Filtering menu*/
+#ourHolder .pf-item{
+  width: 33.33333%;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+ul#filterOptions {
+  height: 52px;
+  margin: 30px auto;
+  overflow: hidden;
+  list-style: none;
+}
+ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
+ul#filterOptions li a {
+  padding: 0 20px;
+  border: 1px solid #999;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+ul#filterOptions li a:hover { background: #c9c9c9; }
+ul#filterOptions li.active a { background: #999; }
+
+/*Responsive Options*/
+@media only screen and (max-width:755px) {
+  #topMenu{
+    background-color: #fff;
+  }
+  a.page-scroll{
+    color: #222;
+  }
+  #ourHolder .pf-item{
+	  width:100%;
+  }
 }

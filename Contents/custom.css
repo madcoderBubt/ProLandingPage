@@ -174,31 +174,7 @@
 }
 
 /*prortfolio Area*/
-#ourHolder .pf-item{
-  width: 33.33333%;
-  float: left;
-  padding: 0 15px;
-  margin-bottom: 30px;
-  overflow: hidden;
-}
 
-ul#filterOptions {
-  width: 802px;
-  height: 52px;
-  margin: 30px auto;
-  overflow: hidden;
-  list-style: none;
-}
-ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
-ul#filterOptions li a {
-  padding: 0 20px;
-  border: 1px solid #999;
-  font-weight: bold;
-  text-decoration: none;
-  display: block;
-}
-ul#filterOptions li a:hover { background: #c9c9c9; }
-ul#filterOptions li.active a { background: #999; }
 
 /*videoArea*/
 .lwtArea h2{

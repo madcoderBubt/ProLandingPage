@@ -48,7 +48,7 @@ $('.owl-slide').owlCarousel({
           items:1,
           nav:true
       },
-      600:{
+      700:{
           items:2,
           nav:false
       },
