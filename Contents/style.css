@@ -299,12 +299,17 @@ a:hover,a:focus,
 }
 
 ul#filterOptions {
-  height: 52px;
+  /*height: 52px;*/
   margin: 30px auto;
   overflow: hidden;
   list-style: none;
 }
-ul#filterOptions li { height: 52px; margin-right: 2px; float: left; }
+ul#filterOptions li {
+  /*height: 52px;*/
+  margin-right: 2px;
+  margin-bottom: 2px;
+  float: left;
+}
 ul#filterOptions li a {
   padding: 0 20px;
   border: 1px solid #999;
