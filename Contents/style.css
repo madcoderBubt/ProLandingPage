@@ -85,35 +85,43 @@ input[type="text"],textarea{
 .btn-o-dark:hover,
 .btn-dark:hover,
 .btn-dark-submit,
-.btn.btn-dark-fill{
+.btn-dark-submit:focus,
+.btn.btn-dark-fill,
+.btn.btn-dark-fill:focus{
   color: white;
   border-color: #222;
   background-color: #222;
 }
 .btn-red,
+.btn-red:focus,
 .btn.btn-red-fill:hover{
   background-color: transparent;
   color: #b43434;
 }
 .btn-dark,
+.btn-dark:focus,
 .btn.btn-dark-fill:hover{
   background-color: transparent;
   color: #222;
 }
 .btn-light-o,
-.btn-light{
+.btn-light-o:focus,
+.btn-light,.btn-light:focus{
   background-color: transparent;
   border-color: white;
   color: white;
 }
 .btn-light-fill-o,
+.btn-light-fill-o:focus,
 .btn-light-fill,
+.btn-light-fill:focus,
 .btn-light:hover{
   background-color: #fff;
   color: #222;
   border-color: #fff;
 }
 .btn-o-dark,
+.btn-o-dark:focus,
 .btn-light-o:hover,
 .btn-light-fill-o:hover{
   background-color: #F27849;
