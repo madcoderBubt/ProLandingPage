@@ -50,6 +50,9 @@ a.btn-social:hover{
   background-position: center;
   background-size: cover;
 }
+.fixed{
+  overflow: hidden;
+}
 .form-control,
 input[type="text"],textarea{
   background-color: #f4f4f4;
