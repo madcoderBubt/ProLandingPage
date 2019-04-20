@@ -143,9 +143,6 @@ input[type="text"],textarea{
   font-weight: bold;
   text-decoration: underline;
 }
-.area-heading::after{
-
-}
 
 /*navbar Area*/
 .navbar{
@@ -161,9 +158,16 @@ input[type="text"],textarea{
   */
   padding: 10px 0;
 }
+.navbar-brand{
+  height: 50px;
+  width: 225px;
+  background: url(../Images/Logo-d.png) 0 -52px no-repeat;
+}
+.navbar-brand:hover,
 .navbar-brand.scrolled:hover,
 .navbar-brand.scrolled{
   color: #F27849;
+  background: url("../Images/Logo-d.png") 0 -1px no-repeat;
 }
 a.navbar-brand,
 a.navbar-brand:hover,
